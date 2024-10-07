@@ -15,7 +15,7 @@ const DarkModeToggle = () => {
   const toggleDarkMode = () => {
     setDarkMode((prevMode) => {
       const newMode = !prevMode;
-      localStorage.setItem('darkMode', newMode);
+      localStorage.setItem('darkMode', `${newMode}`);
       document.documentElement.classList.toggle('dark', newMode);
       return newMode;
     });
