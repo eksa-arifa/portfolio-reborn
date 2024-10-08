@@ -1,4 +1,5 @@
 import Profile from "../assets/images/profile.jpeg"
+import BtnStyle from "./BtnStyle"
 
 
 const Jumbotron = () => {
@@ -10,6 +11,9 @@ const Jumbotron = () => {
         <p>
           I am a student who really likes technological developments
         </p>
+        <a href="" className="mt-3 block">
+          <BtnStyle className={'w-fit'}>Download CV</BtnStyle>
+        </a>
       </div>
     </div>
   )

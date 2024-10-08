@@ -4,7 +4,7 @@ import LKSN from "../assets/images/lksn.png"
 const Achievments = () => {
     return (
         <div className="dark:text-white">
-            <h1 className="font-bold text-xl">Achievments</h1>
+            <h1 className="font-bold text-xl">Achievments - <span className="text-slate-600 font-thin dark:text-gray-300">I have participated in many competitions with quite satisfactory results, but this is the biggest competition I have ever participated in.</span></h1>
             <div className="flex flex-col gap-2 py-2">
                 <div className="w-full flex justify-between shadow-lg rounded-lg py-2 px-4 border">
                     <div className="flex items-center gap-2">

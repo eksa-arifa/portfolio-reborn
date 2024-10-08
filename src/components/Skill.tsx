@@ -3,7 +3,7 @@ import BtnStyle from "./BtnStyle"
 const Skill = () => {
   return (
     <div className="dark:text-white">
-        <h1 className="font-bold text-xl">Skills & Tools</h1>
+        <h1 className="font-bold text-xl">Skills & Tools - <span className="text-slate-600 font-thin dark:text-gray-300">This Is The Source Of My Strength</span></h1>
         <div className="flex flex-wrap gap-2 py-2">
             <BtnStyle>HTML</BtnStyle>
             <BtnStyle>FontAwesome</BtnStyle>
@@ -21,6 +21,7 @@ const Skill = () => {
             <BtnStyle>Laravel</BtnStyle>
             <BtnStyle>Mysql</BtnStyle>
             <BtnStyle>Postgres</BtnStyle>
+            <BtnStyle>Supabase</BtnStyle>
             <BtnStyle>Docker</BtnStyle>
             <BtnStyle>Linux</BtnStyle>
         </div>
